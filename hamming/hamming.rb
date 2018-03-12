@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 class Hamming
     def self.compute(strand1, strand2)
         strand1, strand2 = [strand1, strand2].sort_by(&:length)
